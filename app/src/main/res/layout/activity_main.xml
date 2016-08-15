@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.suketurastogi.musicalstructureapp.MainActivity">
+
+    <TextView
+        style="@style/HeadingTextView"
+        android:text="@string/home_heading" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/recent_activity_button"
+                style="@style/HomeButtonStyle"
+                android:layout_weight="2"
+                android:text="@string/button_option_one" />
+
+            <Button
+                android:id="@+id/my_music_button"
+                style="@style/HomeButtonStyle"
+                android:layout_weight="2"
+                android:text="@string/button_option_two" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/radio_button"
+                style="@style/HomeButtonStyle"
+                android:layout_weight="2"
+                android:text="@string/button_option_three" />
+
+            <Button
+                android:id="@+id/settings_button"
+                style="@style/HomeButtonStyle"
+                android:layout_weight="2"
+                android:text="@string/button_option_four" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

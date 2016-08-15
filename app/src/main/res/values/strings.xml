@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MusicalStructureApp</string>
+
+    <string name="home_heading">Music Library \n Its the Home screen of our App. \n
+    From here you can navigate to four other options.</string>
+
+    <string name="recent_activity_heading">Recent Activity \n All New songs Added to your Music
+    Library are shown here. \n You can also track your songs journey here.</string>
+
+    <string name="my_music_heading">My Music \n All your music albums are shown here. \n
+    You can shuffle and listen to all songs available on your device.</string>
+
+    <string name="radio_heading">Radio \n Here you can browse to all different radio stations. \n
+    You can start auto scan or directly connect to any saved radio station.</string>
+
+    <string name="settings_heading">Settings \n Here you can set your equalizer. \n You can also
+    change your account settings.</string>
+
+    <string name="button_option_one">Recent Activity</string>
+    <string name="button_option_two">My Music</string>
+    <string name="button_option_three">Radio</string>
+    <string name="button_option_four">Settings</string>
+    <string name="button_option_five">Home</string>
+
+
+</resources>
